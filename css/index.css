@@ -137,10 +137,17 @@ body {
 button:focus {
   outline: none;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
 .home-page .full-page-view {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
 }
 .home-page .full-page-view .left-container {
   background: #edb239;
@@ -250,4 +257,94 @@ button:focus {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   margin: 4%;
+}
+.about-page .full-page-view {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.about-page .full-page-view .left-container {
+  background: #edb239;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.about-page .full-page-view .left-container .main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  position: fixed;
+  left: 45%;
+  top: 20px;
+}
+.about-page .full-page-view .left-container .main-nav .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15% auto;
+  height: 15%;
+}
+.about-page .full-page-view .left-container .main-nav a {
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 2.4rem;
+  font-style: italic;
+  text-decoration: none;
+  color: #000;
+}
+.about-page .full-page-view .left-container .about {
+  width: 80%;
+  margin-left: 5%;
+}
+.about-page .full-page-view .left-container .about h2 {
+  font-size: 6.4rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+.about-page .full-page-view .left-container .about .skills {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+.about-page .full-page-view .left-container .about .skills span {
+  font-weight: bold;
+}
+.about-page .full-page-view .left-container .about .current-position {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+.about-page .full-page-view .left-container .about .email-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-page .full-page-view .left-container .about .email-container .email {
+  font-size: 2.4rem;
+  font-family: "IM Fell DW Pica", serif;
+}
+.about-page .full-page-view .left-container .arrow {
+  background: none;
+  border: none;
+  transform: rotate(90deg);
+}
+.about-page .full-page-view .left-container .arrow:hover {
+  cursor: pointer;
+}
+.about-page .full-page-view .left-container .up-arrow {
+  transform: rotate(180deg);
+}
+.about-page .full-page-view .hero-container {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+}
+.about-page .full-page-view .hero-container .hero-img {
+  height: 97vh;
+  width: auto;
 }

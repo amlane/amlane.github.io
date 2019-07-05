@@ -2,7 +2,7 @@
   .full-page-view {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     .left-container {
       background: @accentColor;
       width: 50vw;
@@ -127,6 +127,105 @@
       font-family: @mainFont;
       font-size: 2rem;
       margin: 4%;
+    }
+  }
+}
+
+.about-page {
+  .full-page-view {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    .left-container {
+      background: @accentColor;
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+
+      .main-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        position: fixed;
+        left: 45%;
+        top: 20px;
+
+        .links {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin: 15% auto;
+          height: 15%;
+        }
+        a {
+          font-family: @accentFont;
+          font-size: 2.4rem;
+          font-style: italic;
+          text-decoration: none;
+          color: #000;
+        }
+      }
+      .about {
+        width: 80%;
+        margin-left: 5%;
+        h2 {
+          font-size: 6.4rem;
+          font-weight: bold;
+          margin-bottom: 5rem;
+        }
+        .skills {
+          font-size: 3.5rem;
+          margin-bottom: 4rem;
+
+          span {
+            font-weight: bold;
+          }
+        }
+        .current-position {
+          font-size: 2.4rem;
+          margin-bottom: 3rem;
+        }
+        .email-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .email {
+            font-size: 2.4rem;
+            font-family: @accentFont;
+          }
+        }
+      }
+      .arrow {
+        background: none;
+        border: none;
+        transform: rotate(90deg);
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .up-arrow {
+        transform: rotate(180deg);
+      }
+    }
+    .hero-container {
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fafafa;
+
+      .hero-img {
+        height: 97vh;
+        width: auto;
+      }
     }
   }
 }
