@@ -40,6 +40,6 @@ $(".scroll-home")
       {
         scrollTop: $("#home").offset().top
       },
-      1000
+      2000
     );
   });

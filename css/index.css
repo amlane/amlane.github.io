@@ -228,12 +228,11 @@ a {
 .home-page .project-component {
   background: #fafafa;
   align-self: center;
-  width: 40vw;
+  width: 38vw;
 }
 .home-page .project-component .image {
-  height: 40vh;
-  width: auto;
-  background: #c4c4c4;
+  height: auto;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
