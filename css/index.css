@@ -320,6 +320,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 95%;
 }
 .about-page .full-page-view .left-container .about .email-container .email {
   font-size: 2.4rem;
