@@ -177,7 +177,6 @@ a {
 .home-page .full-page-view .left-container .main-nav a {
   font-family: "IM Fell DW Pica", serif;
   font-size: 2.4rem;
-  font-style: italic;
   text-decoration: none;
   color: #000;
 }
@@ -195,11 +194,17 @@ a {
   padding-bottom: 20px;
   padding-right: 20%;
 }
-.home-page .full-page-view .left-container .introduction p {
+.home-page .full-page-view .left-container .introduction .subtitle {
   font-family: "IM Fell DW Pica", serif;
   font-size: 2.4rem;
-  font-style: italic;
   padding-left: 20%;
+  margin-bottom: 5%;
+}
+.home-page .full-page-view .left-container .introduction .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin: 1% 0;
+  width: 70%;
 }
 .home-page .full-page-view .hero-container {
   width: 50vw;
