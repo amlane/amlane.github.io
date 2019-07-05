@@ -147,7 +147,7 @@ a {
 .home-page .full-page-view {
   display: flex;
   justify-content: space-between;
-  height: 100%;
+  height: 100vh;
 }
 .home-page .full-page-view .left-container {
   background: #edb239;
@@ -155,7 +155,6 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 .home-page .full-page-view .left-container .main-nav {
@@ -202,31 +201,34 @@ a {
   font-style: italic;
   padding-left: 20%;
 }
-.home-page .full-page-view .left-container .arrow {
-  background: none;
-  border: none;
-}
-.home-page .full-page-view .left-container .arrow:hover {
-  cursor: pointer;
-}
-.home-page .full-page-view .left-container .up-arrow {
-  transform: rotate(180deg);
-}
 .home-page .full-page-view .hero-container {
   width: 50vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   background: #fafafa;
 }
 .home-page .full-page-view .hero-container .hero-img {
-  height: 97vh;
+  height: 90vh;
   width: auto;
+  align-self: center;
+}
+.home-page .full-page-view .hero-container .arrow {
+  background: none;
+  border: none;
+  z-index: 10;
+}
+.home-page .full-page-view .hero-container .arrow:hover {
+  cursor: pointer;
+}
+.home-page .full-page-view .hero-container .scroll-home {
+  transform: rotate(180deg);
 }
 .home-page .project-component {
   background: #fafafa;
-  padding: 3%;
+  align-self: center;
+  width: 40vw;
 }
 .home-page .project-component .image {
   height: 40vh;
@@ -256,7 +258,7 @@ a {
 .home-page .project-component .description {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
-  margin: 4%;
+  margin: 4% 0;
 }
 .about-page .full-page-view {
   display: flex;
@@ -315,6 +317,10 @@ a {
 .about-page .full-page-view .left-container .about .current-position {
   font-size: 2.4rem;
   margin-bottom: 3rem;
+  line-height: 1.5;
+}
+.about-page .full-page-view .left-container .about .current-position .social-media {
+  text-decoration: underline;
 }
 .about-page .full-page-view .left-container .about .email-container {
   display: flex;

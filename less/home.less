@@ -2,14 +2,13 @@
   .full-page-view {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    height: 100vh;
     .left-container {
       background: @accentColor;
       width: 50vw;
       height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
 
       .main-nav {
@@ -59,39 +58,40 @@
           padding-left: 20%;
         }
       }
-
-      .arrow {
-        background: none;
-        border: none;
-
-        &:hover {
-          cursor: pointer;
-        }
-      }
-
-      .up-arrow {
-        transform: rotate(180deg);
-      }
     }
     .hero-container {
       width: 50vw;
       height: 100vh;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-end;
       background: #fafafa;
 
       .hero-img {
-        height: 97vh;
+        height: 90vh;
         width: auto;
+        align-self: center;
+      }
+      .arrow {
+        background: none;
+        border: none;
+
+        z-index: 10;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .scroll-home {
+        transform: rotate(180deg);
       }
     }
   }
 
   .project-component {
-    // height: 100vh;
     background: #fafafa;
-    padding: 3%;
+    align-self: center;
+    width: 40vw;
 
     .image {
       height: 40vh;
@@ -126,7 +126,7 @@
     .description {
       font-family: @mainFont;
       font-size: 2rem;
-      margin: 4%;
+      margin: 4% 0;
     }
   }
 }
@@ -189,6 +189,11 @@
         .current-position {
           font-size: 2.4rem;
           margin-bottom: 3rem;
+          line-height: 1.5;
+
+          .social-media {
+            text-decoration: underline;
+          }
         }
         .email-container {
           display: flex;

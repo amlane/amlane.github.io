@@ -5,9 +5,7 @@ $(".down-arrow")
   .click(() => {
     $("html, body").animate(
       {
-        scrollTop: $(".full-page-view")
-          .eq(1)
-          .offset().top
+        scrollTop: $("#one").offset().top
       },
       1000
     );
@@ -18,9 +16,7 @@ $(".down-arrow")
   .click(() => {
     $("html, body").animate(
       {
-        scrollTop: $(".full-page-view")
-          .eq(2)
-          .offset().top
+        scrollTop: $("#two").offset().top
       },
       1000
     );
@@ -31,22 +27,18 @@ $(".down-arrow")
   .click(() => {
     $("html, body").animate(
       {
-        scrollTop: $(".full-page-view")
-          .eq(3)
-          .offset().top
+        scrollTop: $("#three").offset().top
       },
       1000
     );
   });
 
-$(".down-arrow")
-  .eq(3)
+$(".scroll-home")
+  .eq(0)
   .click(() => {
     $("html, body").animate(
       {
-        scrollTop: $(".full-page-view")
-          .eq(4)
-          .offset().top
+        scrollTop: $("#home").offset().top
       },
       1000
     );
