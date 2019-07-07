@@ -9,3 +9,4 @@
 - [ ] add hamburger menu for mobile
 - [ ] create tablet view
 - [ ] gif demo on click
+- [ ] finish replacing lorem ipsum with real content
