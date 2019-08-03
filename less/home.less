@@ -5,8 +5,8 @@
     height: 100vh;
     .left-container {
       background: @accentColor;
-      width: 50vw;
-      height: 100vh;
+      width: 50%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -17,22 +17,21 @@
         justify-content: space-between;
         height: 100vh;
         position: fixed;
-        left: 45%;
-        top: 20px;
+        left: calc(50% - 100px);
+        padding: 10px;
 
         .links {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
-          margin: 15% auto;
-          height: 15%;
+          margin: 15px auto;
+          height: 150px;
         }
         a {
           font-family: @accentFont;
           font-size: 2.4rem;
           text-decoration: none;
-          color: #000;
         }
       }
 
@@ -76,12 +75,11 @@
         height: 90vh;
         width: auto;
         align-self: center;
+        margin: 0 auto;
       }
       .arrow {
         background: none;
         border: none;
-
-        z-index: 10;
 
         &:hover {
           cursor: pointer;
