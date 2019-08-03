@@ -380,5 +380,7 @@ a {
 .about-page .full-page-view .hero-container .hero-img {
   height: auto;
   width: 75%;
+  min-width: 600px;
+  align-self: center;
   margin: 0 auto;
 }
