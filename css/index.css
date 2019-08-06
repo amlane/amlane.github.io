@@ -133,6 +133,7 @@ html {
 html,
 body {
   font-family: "Roboto", sans-serif;
+  background: #edb239;
 }
 button:focus {
   outline: none;
@@ -152,7 +153,7 @@ a {
 .home-page .full-page-view .left-container {
   background: #edb239;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -178,13 +179,15 @@ a {
   font-family: "IM Fell DW Pica", serif;
   font-size: 2.4rem;
   padding-left: 20%;
-  margin-bottom: 5%;
 }
 .home-page .full-page-view .left-container .introduction .description {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   margin: 1% 0;
   width: 70%;
+}
+.home-page .full-page-view .left-container .introduction .description span {
+  font-weight: bold;
 }
 .home-page .full-page-view .left-container .arrow {
   background: none;
@@ -199,7 +202,7 @@ a {
 }
 .home-page .full-page-view .hero-container {
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   background: #fafafa;
 }
@@ -207,7 +210,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   padding: 10px 25px;
 }
@@ -269,7 +272,7 @@ a {
 .about-page .full-page-view {
   display: flex;
   justify-content: space-between;
-  height: 100%;
+  height: 100vh;
 }
 .about-page .full-page-view .left-container {
   background: #edb239;
@@ -284,7 +287,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   position: fixed;
   left: 45%;
   top: 20px;
