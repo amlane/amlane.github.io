@@ -36,7 +36,8 @@ input,
 select,
 textarea {
   color: _palette(fg-bold);
-  font-family: _font(family);
+  // font-family: _font(family);
+  font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   font-weight: _font(weight);
   letter-spacing: _font(kerning);
@@ -80,7 +81,8 @@ h4,
 h5,
 h6 {
   color: _palette(fg-bold);
-  font-family: _font(family-heading);
+  // font-family: _font(family-heading);
+  font-family: "Red Hat Display", sans-serif;
   font-weight: _font(weight-heading-light);
   letter-spacing: _font(kerning-heading);
   line-height: 1.75;
@@ -94,7 +96,9 @@ h6 {
 }
 
 h1 {
-  font-family: _font(family);
+  // font-family: _font(family);
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 5rem;
   font-weight: _font(weight-extrabold);
   letter-spacing: _font(kerning-heading-alt);
@@ -107,6 +111,7 @@ h2 {
   font-size: 1.25rem;
   font-weight: _font(weight-heading);
   margin: 0 0 _size(element-margin) 0;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 h3 {

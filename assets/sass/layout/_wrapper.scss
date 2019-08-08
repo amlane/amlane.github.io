@@ -203,7 +203,8 @@
 					}
 
 					h1 + p {
-						font-family: _font(family-heading);
+						// font-family: _font(family-heading);
+						font-family: "Red Hat Display", sans-serif;
 						font-size: 0.8rem;
 						font-weight: _font(weight-heading-extralight);
 						letter-spacing: _font(kerning-heading);

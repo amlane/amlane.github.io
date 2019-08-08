@@ -123,7 +123,7 @@ input,
 select,
 textarea {
   color: #000000;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.0375em;
@@ -160,7 +160,7 @@ h4,
 h5,
 h6 {
   color: #000000;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 600;
   letter-spacing: 0.175em;
   line-height: 1.75;
@@ -176,7 +176,8 @@ h6 {
     text-decoration: none; }
 
 h1 {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
@@ -187,7 +188,8 @@ h1 {
 h2 {
   font-size: 1.25rem;
   font-weight: 800;
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0;
+  font-family: "Red Hat Display", sans-serif; }
 
 h3 {
   font-size: 0.875rem; }
@@ -2051,7 +2053,7 @@ ul.feature-icons {
       #wrapper section > header h2 {
         margin: 0 0 5rem 0; }
       #wrapper section > header h1 + p {
-        font-family: "Raleway", Helvetica, sans-serif;
+        font-family: "Red Hat Display", sans-serif;
         font-size: 0.8rem;
         letter-spacing: 0.175em;
         line-height: 2.5;
