@@ -2045,7 +2045,7 @@ ul.feature-icons {
   background: none;
   border-bottom: 1px dotted black;
   padding: 0;
-  line-height: 0;
+  line-height: 1.4;
   overflow: visible;
   cursor: pointer;
   width: 11.25rem; }
