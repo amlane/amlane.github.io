@@ -1353,7 +1353,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       border-radius: 0.325rem;
       border: solid 2px rgba(144, 144, 144, 0.25);
-      content: '';
+      content: "";
       display: inline-block;
       font-size: 0.8rem;
       height: 2.25rem;
@@ -1365,7 +1365,7 @@ input[type="radio"] {
       width: 2.25rem; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    content: '\f00c';
+    content: "\f00c";
     background-color: #edb239;
     border-color: #edb239;
     color: #ffffff; }
@@ -1381,19 +1381,19 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  opacity: 1.0;
+  opacity: 1;
   color: rgba(0, 0, 0, 0.25) !important; }
 
 :-moz-placeholder {
-  opacity: 1.0;
+  opacity: 1;
   color: rgba(0, 0, 0, 0.25) !important; }
 
 ::-moz-placeholder {
-  opacity: 1.0;
+  opacity: 1;
   color: rgba(0, 0, 0, 0.25) !important; }
 
 :-ms-input-placeholder {
-  opacity: 1.0;
+  opacity: 1;
   color: rgba(0, 0, 0, 0.25) !important; }
 
 @media screen and (max-width: 736px) {
@@ -2039,6 +2039,18 @@ ul.feature-icons {
         width: 100%; }
         ul.feature-icons li:nth-child(2) {
           margin-top: 2rem; } }
+
+#myInput {
+  border: none;
+  background: none;
+  border-bottom: 1px dotted black;
+  padding: 0;
+  line-height: 0;
+  overflow: visible;
+  cursor: pointer;
+  width: 11.25rem; }
+  #myInput:focus {
+    outline: none; }
 
 /* Wrapper */
 #wrapper {

@@ -1,0 +1,14 @@
+#myInput {
+  border: none;
+  background: none;
+  border-bottom: 1px dotted black;
+  padding: 0;
+  line-height: 0;
+  overflow: visible;
+  cursor: pointer;
+  width: 11.25rem;
+
+  &:focus {
+    outline: none;
+  }
+}
